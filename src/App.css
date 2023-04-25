@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+.login:hover {
+  color: #fff !important;
+}
+
+.more-ft {
+  font-size: 62px !important;
+  font-weight: 800px !important;
+}
+
+.boost {
+  background-color: hsl(257, 27%, 26%);
+  height: 17.188rem;
+}
+
+.boost img {
+  height: 17.188rem;
+  @apply w-full;
+}
+
+.boost .boost-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.shortener {
+  background-color: hsl(257, 27%, 26%);
+  height: 17.188rem;
+  border-radius: 8px;
+  width: 98%;
+}
+
+.shortener img {
+  height: 17.188rem;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.shortener .form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.list {
+  list-style: none;
+}
+
+.input-box {
+  width: 550px !important;
+  border-radius: 10px;
+  outline: none;
+}
+.link-short {
+  text-decoration: none;
+}
+
+.noData {
+  color: #000;
+  font-size: 1.8rem;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.logerr {
+  color: #000;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.bod {
+  background: #31d2f2;
+  background: linear-gradient(to right, #72c7d8, #31d2f2);
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 430px) {
+  .more-ft {
+    font-size: 38px !important;
+    font-weight: 800px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .more-ft {
+    font-size: 45px !important;
+    font-weight: 800px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .line {
+    width: 900px !important;
+    height: fit-content !important;
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 450px) {
+  .shortener .form {
+    width: 100%;
+  }
+  .input-box {
+    width: 100% !important;
+  }
+  .mob-image {
+    width: 100% !important;
+  }
+}
